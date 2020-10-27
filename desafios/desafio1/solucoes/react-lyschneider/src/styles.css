@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Nunito', Arial;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* The answer selected by the user */
+.selected {
+  background-color: orange;
+}
+
+/* The list of options */
+.options {
+  padding: 8px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+h1, h2 {
+  font-size: 76px;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+span {
+  margin-top: 90px;
+  font-size: 18px;
+  line-height: 44px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+body, input, button, textarea {
+  font: 600 18px Nunito, sans-serif;
+  background-color: #f6fff9; 
+}
+
+button {
+  right: 0;
+  bottom: 0;
+  margin-top: 12px;
+
+  width: 140px;
+  height: 80px;
+  border-radius: 220px;
+}
+
+button:hover {
+  background: #1b888a;
+}
+
+create-quiz {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+
+  z-index: 10;
+
+  width: 64px;
+  height: 64px;
+  background: #15c3d6;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: background-color 0.2s;
+}
+
+create-quiz:hover {
+  background: #1b888a;
+}
